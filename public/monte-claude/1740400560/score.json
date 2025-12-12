@@ -1,0 +1,1750 @@
+{
+  "total_score": 63651.83569488596,
+  "detailed_scores": [
+    {
+      "Interval": "5min",
+      "Increment": 1,
+      "CRPS": 85.15462340674722
+    },
+    {
+      "Interval": "5min",
+      "Increment": 2,
+      "CRPS": 67.93485426238891
+    },
+    {
+      "Interval": "5min",
+      "Increment": 3,
+      "CRPS": 74.08655024764505
+    },
+    {
+      "Interval": "5min",
+      "Increment": 4,
+      "CRPS": 59.40655649985706
+    },
+    {
+      "Interval": "5min",
+      "Increment": 5,
+      "CRPS": 139.50968232058995
+    },
+    {
+      "Interval": "5min",
+      "Increment": 6,
+      "CRPS": 53.391101495197375
+    },
+    {
+      "Interval": "5min",
+      "Increment": 7,
+      "CRPS": 83.33449019692537
+    },
+    {
+      "Interval": "5min",
+      "Increment": 8,
+      "CRPS": 116.87179735854048
+    },
+    {
+      "Interval": "5min",
+      "Increment": 9,
+      "CRPS": 92.20709067583627
+    },
+    {
+      "Interval": "5min",
+      "Increment": 10,
+      "CRPS": 87.21040217088364
+    },
+    {
+      "Interval": "5min",
+      "Increment": 11,
+      "CRPS": 116.63120610130659
+    },
+    {
+      "Interval": "5min",
+      "Increment": 12,
+      "CRPS": 78.1300162581515
+    },
+    {
+      "Interval": "5min",
+      "Increment": 13,
+      "CRPS": 86.43884966736488
+    },
+    {
+      "Interval": "5min",
+      "Increment": 14,
+      "CRPS": 61.03098641008012
+    },
+    {
+      "Interval": "5min",
+      "Increment": 15,
+      "CRPS": 61.50488122000195
+    },
+    {
+      "Interval": "5min",
+      "Increment": 16,
+      "CRPS": 137.59345664715343
+    },
+    {
+      "Interval": "5min",
+      "Increment": 17,
+      "CRPS": 83.04655683331185
+    },
+    {
+      "Interval": "5min",
+      "Increment": 18,
+      "CRPS": 71.36019681641102
+    },
+    {
+      "Interval": "5min",
+      "Increment": 19,
+      "CRPS": 68.46334662719326
+    },
+    {
+      "Interval": "5min",
+      "Increment": 20,
+      "CRPS": 80.83033873723946
+    },
+    {
+      "Interval": "5min",
+      "Increment": 21,
+      "CRPS": 58.43811467061053
+    },
+    {
+      "Interval": "5min",
+      "Increment": 22,
+      "CRPS": 76.21351131891018
+    },
+    {
+      "Interval": "5min",
+      "Increment": 23,
+      "CRPS": 130.36770704004297
+    },
+    {
+      "Interval": "5min",
+      "Increment": 24,
+      "CRPS": 224.01415631749376
+    },
+    {
+      "Interval": "5min",
+      "Increment": 25,
+      "CRPS": 96.32849190919433
+    },
+    {
+      "Interval": "5min",
+      "Increment": 26,
+      "CRPS": 123.87952354446963
+    },
+    {
+      "Interval": "5min",
+      "Increment": 27,
+      "CRPS": 90.56510083849312
+    },
+    {
+      "Interval": "5min",
+      "Increment": 28,
+      "CRPS": 126.80200822928452
+    },
+    {
+      "Interval": "5min",
+      "Increment": 29,
+      "CRPS": 170.8132840400252
+    },
+    {
+      "Interval": "5min",
+      "Increment": 30,
+      "CRPS": 173.70755696388397
+    },
+    {
+      "Interval": "5min",
+      "Increment": 31,
+      "CRPS": 285.9390265145044
+    },
+    {
+      "Interval": "5min",
+      "Increment": 32,
+      "CRPS": 102.9966971043338
+    },
+    {
+      "Interval": "5min",
+      "Increment": 33,
+      "CRPS": 142.1484092099312
+    },
+    {
+      "Interval": "5min",
+      "Increment": 34,
+      "CRPS": 60.98555542397463
+    },
+    {
+      "Interval": "5min",
+      "Increment": 35,
+      "CRPS": 88.33170833702118
+    },
+    {
+      "Interval": "5min",
+      "Increment": 36,
+      "CRPS": 142.11640753424444
+    },
+    {
+      "Interval": "5min",
+      "Increment": 37,
+      "CRPS": 73.77873673273922
+    },
+    {
+      "Interval": "5min",
+      "Increment": 38,
+      "CRPS": 196.79036551555217
+    },
+    {
+      "Interval": "5min",
+      "Increment": 39,
+      "CRPS": 75.58813507721163
+    },
+    {
+      "Interval": "5min",
+      "Increment": 40,
+      "CRPS": 67.3689702261158
+    },
+    {
+      "Interval": "5min",
+      "Increment": 41,
+      "CRPS": 115.66282453349538
+    },
+    {
+      "Interval": "5min",
+      "Increment": 42,
+      "CRPS": 264.5396751351838
+    },
+    {
+      "Interval": "5min",
+      "Increment": 43,
+      "CRPS": 70.36632816854785
+    },
+    {
+      "Interval": "5min",
+      "Increment": 44,
+      "CRPS": 75.85149443420974
+    },
+    {
+      "Interval": "5min",
+      "Increment": 45,
+      "CRPS": 132.6194759910319
+    },
+    {
+      "Interval": "5min",
+      "Increment": 46,
+      "CRPS": 230.54980750955383
+    },
+    {
+      "Interval": "5min",
+      "Increment": 47,
+      "CRPS": 65.29654825038043
+    },
+    {
+      "Interval": "5min",
+      "Increment": 48,
+      "CRPS": 73.69086501433378
+    },
+    {
+      "Interval": "5min",
+      "Increment": 49,
+      "CRPS": 91.97750368134152
+    },
+    {
+      "Interval": "5min",
+      "Increment": 50,
+      "CRPS": 129.40256688635654
+    },
+    {
+      "Interval": "5min",
+      "Increment": 51,
+      "CRPS": 148.78383711924474
+    },
+    {
+      "Interval": "5min",
+      "Increment": 52,
+      "CRPS": 105.68860572548573
+    },
+    {
+      "Interval": "5min",
+      "Increment": 53,
+      "CRPS": 69.10783125077731
+    },
+    {
+      "Interval": "5min",
+      "Increment": 54,
+      "CRPS": 70.08809066559093
+    },
+    {
+      "Interval": "5min",
+      "Increment": 55,
+      "CRPS": 86.02504213213066
+    },
+    {
+      "Interval": "5min",
+      "Increment": 56,
+      "CRPS": 154.91607128741632
+    },
+    {
+      "Interval": "5min",
+      "Increment": 57,
+      "CRPS": 139.30394525573712
+    },
+    {
+      "Interval": "5min",
+      "Increment": 58,
+      "CRPS": 58.873046389171776
+    },
+    {
+      "Interval": "5min",
+      "Increment": 59,
+      "CRPS": 59.116941662528404
+    },
+    {
+      "Interval": "5min",
+      "Increment": 60,
+      "CRPS": 74.4479495739125
+    },
+    {
+      "Interval": "5min",
+      "Increment": 61,
+      "CRPS": 77.66053339724954
+    },
+    {
+      "Interval": "5min",
+      "Increment": 62,
+      "CRPS": 78.77867716181194
+    },
+    {
+      "Interval": "5min",
+      "Increment": 63,
+      "CRPS": 72.05417398048445
+    },
+    {
+      "Interval": "5min",
+      "Increment": 64,
+      "CRPS": 116.24581006277492
+    },
+    {
+      "Interval": "5min",
+      "Increment": 65,
+      "CRPS": 68.87103171714276
+    },
+    {
+      "Interval": "5min",
+      "Increment": 66,
+      "CRPS": 97.19493692409134
+    },
+    {
+      "Interval": "5min",
+      "Increment": 67,
+      "CRPS": 128.11040276291584
+    },
+    {
+      "Interval": "5min",
+      "Increment": 68,
+      "CRPS": 70.20259153812972
+    },
+    {
+      "Interval": "5min",
+      "Increment": 69,
+      "CRPS": 72.45555042576294
+    },
+    {
+      "Interval": "5min",
+      "Increment": 70,
+      "CRPS": 90.92178141172289
+    },
+    {
+      "Interval": "5min",
+      "Increment": 71,
+      "CRPS": 75.52803131114283
+    },
+    {
+      "Interval": "5min",
+      "Increment": 72,
+      "CRPS": 66.71013141846294
+    },
+    {
+      "Interval": "5min",
+      "Increment": 73,
+      "CRPS": 70.79474703127809
+    },
+    {
+      "Interval": "5min",
+      "Increment": 74,
+      "CRPS": 119.95063817269758
+    },
+    {
+      "Interval": "5min",
+      "Increment": 75,
+      "CRPS": 70.36104115126756
+    },
+    {
+      "Interval": "5min",
+      "Increment": 76,
+      "CRPS": 97.53682128444103
+    },
+    {
+      "Interval": "5min",
+      "Increment": 77,
+      "CRPS": 63.318175464225874
+    },
+    {
+      "Interval": "5min",
+      "Increment": 78,
+      "CRPS": 64.35279447543749
+    },
+    {
+      "Interval": "5min",
+      "Increment": 79,
+      "CRPS": 73.03924206359645
+    },
+    {
+      "Interval": "5min",
+      "Increment": 80,
+      "CRPS": 113.82075176391768
+    },
+    {
+      "Interval": "5min",
+      "Increment": 81,
+      "CRPS": 65.73609268532849
+    },
+    {
+      "Interval": "5min",
+      "Increment": 82,
+      "CRPS": 157.26970444934
+    },
+    {
+      "Interval": "5min",
+      "Increment": 83,
+      "CRPS": 103.76047917088431
+    },
+    {
+      "Interval": "5min",
+      "Increment": 84,
+      "CRPS": 76.39813072310727
+    },
+    {
+      "Interval": "5min",
+      "Increment": 85,
+      "CRPS": 99.15833852718453
+    },
+    {
+      "Interval": "5min",
+      "Increment": 86,
+      "CRPS": 199.72395663118357
+    },
+    {
+      "Interval": "5min",
+      "Increment": 87,
+      "CRPS": 271.9625916772509
+    },
+    {
+      "Interval": "5min",
+      "Increment": 88,
+      "CRPS": 80.7240258358753
+    },
+    {
+      "Interval": "5min",
+      "Increment": 89,
+      "CRPS": 75.9516029499662
+    },
+    {
+      "Interval": "5min",
+      "Increment": 90,
+      "CRPS": 84.25430017325019
+    },
+    {
+      "Interval": "5min",
+      "Increment": 91,
+      "CRPS": 149.71874499648345
+    },
+    {
+      "Interval": "5min",
+      "Increment": 92,
+      "CRPS": 99.89709854984179
+    },
+    {
+      "Interval": "5min",
+      "Increment": 93,
+      "CRPS": 67.29776300047655
+    },
+    {
+      "Interval": "5min",
+      "Increment": 94,
+      "CRPS": 123.38674462881272
+    },
+    {
+      "Interval": "5min",
+      "Increment": 95,
+      "CRPS": 108.89833948409412
+    },
+    {
+      "Interval": "5min",
+      "Increment": 96,
+      "CRPS": 112.24294374693943
+    },
+    {
+      "Interval": "5min",
+      "Increment": 97,
+      "CRPS": 67.11718435474893
+    },
+    {
+      "Interval": "5min",
+      "Increment": 98,
+      "CRPS": 77.49528437292682
+    },
+    {
+      "Interval": "5min",
+      "Increment": 99,
+      "CRPS": 90.73440499162314
+    },
+    {
+      "Interval": "5min",
+      "Increment": 100,
+      "CRPS": 108.63641070277254
+    },
+    {
+      "Interval": "5min",
+      "Increment": 101,
+      "CRPS": 119.24478378187808
+    },
+    {
+      "Interval": "5min",
+      "Increment": 102,
+      "CRPS": 204.92722970217037
+    },
+    {
+      "Interval": "5min",
+      "Increment": 103,
+      "CRPS": 87.60092228146817
+    },
+    {
+      "Interval": "5min",
+      "Increment": 104,
+      "CRPS": 176.6769888237681
+    },
+    {
+      "Interval": "5min",
+      "Increment": 105,
+      "CRPS": 62.6027738779585
+    },
+    {
+      "Interval": "5min",
+      "Increment": 106,
+      "CRPS": 74.3228890261295
+    },
+    {
+      "Interval": "5min",
+      "Increment": 107,
+      "CRPS": 108.48348445951925
+    },
+    {
+      "Interval": "5min",
+      "Increment": 108,
+      "CRPS": 64.88115988287734
+    },
+    {
+      "Interval": "5min",
+      "Increment": 109,
+      "CRPS": 73.96369179656679
+    },
+    {
+      "Interval": "5min",
+      "Increment": 110,
+      "CRPS": 107.43338638425732
+    },
+    {
+      "Interval": "5min",
+      "Increment": 111,
+      "CRPS": 80.09859056056354
+    },
+    {
+      "Interval": "5min",
+      "Increment": 112,
+      "CRPS": 101.69734713095465
+    },
+    {
+      "Interval": "5min",
+      "Increment": 113,
+      "CRPS": 308.74296826052887
+    },
+    {
+      "Interval": "5min",
+      "Increment": 114,
+      "CRPS": 101.98387929401235
+    },
+    {
+      "Interval": "5min",
+      "Increment": 115,
+      "CRPS": 190.5966163359259
+    },
+    {
+      "Interval": "5min",
+      "Increment": 116,
+      "CRPS": 66.97630715629359
+    },
+    {
+      "Interval": "5min",
+      "Increment": 117,
+      "CRPS": 112.03897143187203
+    },
+    {
+      "Interval": "5min",
+      "Increment": 118,
+      "CRPS": 380.7124006631094
+    },
+    {
+      "Interval": "5min",
+      "Increment": 119,
+      "CRPS": 76.20324750222483
+    },
+    {
+      "Interval": "5min",
+      "Increment": 120,
+      "CRPS": 56.642377557521996
+    },
+    {
+      "Interval": "5min",
+      "Increment": 121,
+      "CRPS": 332.2479371880685
+    },
+    {
+      "Interval": "5min",
+      "Increment": 122,
+      "CRPS": 77.91651750499764
+    },
+    {
+      "Interval": "5min",
+      "Increment": 123,
+      "CRPS": 67.71424539986998
+    },
+    {
+      "Interval": "5min",
+      "Increment": 124,
+      "CRPS": 115.5010000879399
+    },
+    {
+      "Interval": "5min",
+      "Increment": 125,
+      "CRPS": 192.5685377970134
+    },
+    {
+      "Interval": "5min",
+      "Increment": 126,
+      "CRPS": 142.47501727040733
+    },
+    {
+      "Interval": "5min",
+      "Increment": 127,
+      "CRPS": 57.79794712566516
+    },
+    {
+      "Interval": "5min",
+      "Increment": 128,
+      "CRPS": 144.82711394065433
+    },
+    {
+      "Interval": "5min",
+      "Increment": 129,
+      "CRPS": 90.44735028698545
+    },
+    {
+      "Interval": "5min",
+      "Increment": 130,
+      "CRPS": 313.83127766444863
+    },
+    {
+      "Interval": "5min",
+      "Increment": 131,
+      "CRPS": 61.4831063558089
+    },
+    {
+      "Interval": "5min",
+      "Increment": 132,
+      "CRPS": 307.86792397509373
+    },
+    {
+      "Interval": "5min",
+      "Increment": 133,
+      "CRPS": 371.34596355404153
+    },
+    {
+      "Interval": "5min",
+      "Increment": 134,
+      "CRPS": 189.77262256886243
+    },
+    {
+      "Interval": "5min",
+      "Increment": 135,
+      "CRPS": 237.44126755073015
+    },
+    {
+      "Interval": "5min",
+      "Increment": 136,
+      "CRPS": 78.49911525682421
+    },
+    {
+      "Interval": "5min",
+      "Increment": 137,
+      "CRPS": 251.9732359836285
+    },
+    {
+      "Interval": "5min",
+      "Increment": 138,
+      "CRPS": 105.38866520283617
+    },
+    {
+      "Interval": "5min",
+      "Increment": 139,
+      "CRPS": 364.16209555438013
+    },
+    {
+      "Interval": "5min",
+      "Increment": 140,
+      "CRPS": 351.1453709570119
+    },
+    {
+      "Interval": "5min",
+      "Increment": 141,
+      "CRPS": 177.47880645943013
+    },
+    {
+      "Interval": "5min",
+      "Increment": 142,
+      "CRPS": 53.697468835981454
+    },
+    {
+      "Interval": "5min",
+      "Increment": 143,
+      "CRPS": 242.99412719102116
+    },
+    {
+      "Interval": "5min",
+      "Increment": 144,
+      "CRPS": 93.92440426928184
+    },
+    {
+      "Interval": "5min",
+      "Increment": 145,
+      "CRPS": 54.10276227897822
+    },
+    {
+      "Interval": "5min",
+      "Increment": 146,
+      "CRPS": 148.17103723270665
+    },
+    {
+      "Interval": "5min",
+      "Increment": 147,
+      "CRPS": 293.09609313305424
+    },
+    {
+      "Interval": "5min",
+      "Increment": 148,
+      "CRPS": 64.57610143719799
+    },
+    {
+      "Interval": "5min",
+      "Increment": 149,
+      "CRPS": 94.20513440111469
+    },
+    {
+      "Interval": "5min",
+      "Increment": 150,
+      "CRPS": 165.22728665260541
+    },
+    {
+      "Interval": "5min",
+      "Increment": 151,
+      "CRPS": 260.5125065841155
+    },
+    {
+      "Interval": "5min",
+      "Increment": 152,
+      "CRPS": 475.6783966755727
+    },
+    {
+      "Interval": "5min",
+      "Increment": 153,
+      "CRPS": 68.22169706338474
+    },
+    {
+      "Interval": "5min",
+      "Increment": 154,
+      "CRPS": 69.82655321742291
+    },
+    {
+      "Interval": "5min",
+      "Increment": 155,
+      "CRPS": 125.63064431129035
+    },
+    {
+      "Interval": "5min",
+      "Increment": 156,
+      "CRPS": 115.1357899723694
+    },
+    {
+      "Interval": "5min",
+      "Increment": 157,
+      "CRPS": 380.00134826984447
+    },
+    {
+      "Interval": "5min",
+      "Increment": 158,
+      "CRPS": 67.54330233235441
+    },
+    {
+      "Interval": "5min",
+      "Increment": 159,
+      "CRPS": 193.03656985745033
+    },
+    {
+      "Interval": "5min",
+      "Increment": 160,
+      "CRPS": 61.756066655549915
+    },
+    {
+      "Interval": "5min",
+      "Increment": 161,
+      "CRPS": 133.9754790296495
+    },
+    {
+      "Interval": "5min",
+      "Increment": 162,
+      "CRPS": 81.61698321531185
+    },
+    {
+      "Interval": "5min",
+      "Increment": 163,
+      "CRPS": 145.72944578915036
+    },
+    {
+      "Interval": "5min",
+      "Increment": 164,
+      "CRPS": 86.67171182416467
+    },
+    {
+      "Interval": "5min",
+      "Increment": 165,
+      "CRPS": 167.39735747487316
+    },
+    {
+      "Interval": "5min",
+      "Increment": 166,
+      "CRPS": 257.3484536059491
+    },
+    {
+      "Interval": "5min",
+      "Increment": 167,
+      "CRPS": 59.48553622254323
+    },
+    {
+      "Interval": "5min",
+      "Increment": 168,
+      "CRPS": 79.69699283706584
+    },
+    {
+      "Interval": "5min",
+      "Increment": 169,
+      "CRPS": 91.34049282068594
+    },
+    {
+      "Interval": "5min",
+      "Increment": 170,
+      "CRPS": 95.07481105011314
+    },
+    {
+      "Interval": "5min",
+      "Increment": 171,
+      "CRPS": 69.67046372681287
+    },
+    {
+      "Interval": "5min",
+      "Increment": 172,
+      "CRPS": 66.00190269632645
+    },
+    {
+      "Interval": "5min",
+      "Increment": 173,
+      "CRPS": 73.40854170000466
+    },
+    {
+      "Interval": "5min",
+      "Increment": 174,
+      "CRPS": 87.11168743544312
+    },
+    {
+      "Interval": "5min",
+      "Increment": 175,
+      "CRPS": 80.70874560248922
+    },
+    {
+      "Interval": "5min",
+      "Increment": 176,
+      "CRPS": 74.01269609631038
+    },
+    {
+      "Interval": "5min",
+      "Increment": 177,
+      "CRPS": 94.83325483402791
+    },
+    {
+      "Interval": "5min",
+      "Increment": 178,
+      "CRPS": 105.29935468409539
+    },
+    {
+      "Interval": "5min",
+      "Increment": 179,
+      "CRPS": 79.82708397768064
+    },
+    {
+      "Interval": "5min",
+      "Increment": 180,
+      "CRPS": 99.97065433168638
+    },
+    {
+      "Interval": "5min",
+      "Increment": 181,
+      "CRPS": 135.82296204798507
+    },
+    {
+      "Interval": "5min",
+      "Increment": 182,
+      "CRPS": 83.26306877043959
+    },
+    {
+      "Interval": "5min",
+      "Increment": 183,
+      "CRPS": 66.70365803359508
+    },
+    {
+      "Interval": "5min",
+      "Increment": 184,
+      "CRPS": 169.19285563551594
+    },
+    {
+      "Interval": "5min",
+      "Increment": 185,
+      "CRPS": 137.25883963153458
+    },
+    {
+      "Interval": "5min",
+      "Increment": 186,
+      "CRPS": 86.20128110409371
+    },
+    {
+      "Interval": "5min",
+      "Increment": 187,
+      "CRPS": 81.25216957358583
+    },
+    {
+      "Interval": "5min",
+      "Increment": 188,
+      "CRPS": 335.6794334280386
+    },
+    {
+      "Interval": "5min",
+      "Increment": 189,
+      "CRPS": 70.55031104505667
+    },
+    {
+      "Interval": "5min",
+      "Increment": 190,
+      "CRPS": 89.6703994227104
+    },
+    {
+      "Interval": "5min",
+      "Increment": 191,
+      "CRPS": 74.69796285172703
+    },
+    {
+      "Interval": "5min",
+      "Increment": 192,
+      "CRPS": 56.49241384674329
+    },
+    {
+      "Interval": "5min",
+      "Increment": 193,
+      "CRPS": 76.10528731660216
+    },
+    {
+      "Interval": "5min",
+      "Increment": 194,
+      "CRPS": 69.24021547489076
+    },
+    {
+      "Interval": "5min",
+      "Increment": 195,
+      "CRPS": 92.00559298465336
+    },
+    {
+      "Interval": "5min",
+      "Increment": 196,
+      "CRPS": 66.27822878298505
+    },
+    {
+      "Interval": "5min",
+      "Increment": 197,
+      "CRPS": 122.91797487736065
+    },
+    {
+      "Interval": "5min",
+      "Increment": 198,
+      "CRPS": 108.1687751857493
+    },
+    {
+      "Interval": "5min",
+      "Increment": 199,
+      "CRPS": 69.34264324326142
+    },
+    {
+      "Interval": "5min",
+      "Increment": 200,
+      "CRPS": 82.73294120565154
+    },
+    {
+      "Interval": "5min",
+      "Increment": 201,
+      "CRPS": 71.19258636210483
+    },
+    {
+      "Interval": "5min",
+      "Increment": 202,
+      "CRPS": 107.00508213560454
+    },
+    {
+      "Interval": "5min",
+      "Increment": 203,
+      "CRPS": 84.40142723764814
+    },
+    {
+      "Interval": "5min",
+      "Increment": 204,
+      "CRPS": 66.89094411181074
+    },
+    {
+      "Interval": "5min",
+      "Increment": 205,
+      "CRPS": 89.88420105295074
+    },
+    {
+      "Interval": "5min",
+      "Increment": 206,
+      "CRPS": 96.8181593499132
+    },
+    {
+      "Interval": "5min",
+      "Increment": 207,
+      "CRPS": 78.17333098785531
+    },
+    {
+      "Interval": "5min",
+      "Increment": 208,
+      "CRPS": 97.15859608754283
+    },
+    {
+      "Interval": "5min",
+      "Increment": 209,
+      "CRPS": 62.32412574600693
+    },
+    {
+      "Interval": "5min",
+      "Increment": 210,
+      "CRPS": 105.9953861869624
+    },
+    {
+      "Interval": "5min",
+      "Increment": 211,
+      "CRPS": 99.04229729452933
+    },
+    {
+      "Interval": "5min",
+      "Increment": 212,
+      "CRPS": 73.26293019272791
+    },
+    {
+      "Interval": "5min",
+      "Increment": 213,
+      "CRPS": 69.71258059845576
+    },
+    {
+      "Interval": "5min",
+      "Increment": 214,
+      "CRPS": 76.92921538931381
+    },
+    {
+      "Interval": "5min",
+      "Increment": 215,
+      "CRPS": 76.03400737377726
+    },
+    {
+      "Interval": "5min",
+      "Increment": 216,
+      "CRPS": 84.02057659928116
+    },
+    {
+      "Interval": "5min",
+      "Increment": 217,
+      "CRPS": 64.60701355648476
+    },
+    {
+      "Interval": "5min",
+      "Increment": 218,
+      "CRPS": 111.68782739606371
+    },
+    {
+      "Interval": "5min",
+      "Increment": 219,
+      "CRPS": 69.29361775636627
+    },
+    {
+      "Interval": "5min",
+      "Increment": 220,
+      "CRPS": 125.38344932879133
+    },
+    {
+      "Interval": "5min",
+      "Increment": 221,
+      "CRPS": 64.24167070842344
+    },
+    {
+      "Interval": "5min",
+      "Increment": 222,
+      "CRPS": 217.59882388890017
+    },
+    {
+      "Interval": "5min",
+      "Increment": 223,
+      "CRPS": 269.6936740904374
+    },
+    {
+      "Interval": "5min",
+      "Increment": 224,
+      "CRPS": 63.67860354506254
+    },
+    {
+      "Interval": "5min",
+      "Increment": 225,
+      "CRPS": 91.63570246285161
+    },
+    {
+      "Interval": "5min",
+      "Increment": 226,
+      "CRPS": 1157.187438809395
+    },
+    {
+      "Interval": "5min",
+      "Increment": 227,
+      "CRPS": 278.5657355245504
+    },
+    {
+      "Interval": "5min",
+      "Increment": 228,
+      "CRPS": 598.4634625851653
+    },
+    {
+      "Interval": "5min",
+      "Increment": 229,
+      "CRPS": 69.17714933195865
+    },
+    {
+      "Interval": "5min",
+      "Increment": 230,
+      "CRPS": 292.48366365905747
+    },
+    {
+      "Interval": "5min",
+      "Increment": 231,
+      "CRPS": 59.403981786863625
+    },
+    {
+      "Interval": "5min",
+      "Increment": 232,
+      "CRPS": 167.82708937606523
+    },
+    {
+      "Interval": "5min",
+      "Increment": 233,
+      "CRPS": 85.55454028446636
+    },
+    {
+      "Interval": "5min",
+      "Increment": 234,
+      "CRPS": 335.6229562133936
+    },
+    {
+      "Interval": "5min",
+      "Increment": 235,
+      "CRPS": 124.6984978019141
+    },
+    {
+      "Interval": "5min",
+      "Increment": 236,
+      "CRPS": 63.55931402430858
+    },
+    {
+      "Interval": "5min",
+      "Increment": 237,
+      "CRPS": 108.41952210188006
+    },
+    {
+      "Interval": "5min",
+      "Increment": 238,
+      "CRPS": 91.85129610067233
+    },
+    {
+      "Interval": "5min",
+      "Increment": 239,
+      "CRPS": 117.29033305255598
+    },
+    {
+      "Interval": "5min",
+      "Increment": 240,
+      "CRPS": 74.23348716064413
+    },
+    {
+      "Interval": "5min",
+      "Increment": 241,
+      "CRPS": 148.11210806681103
+    },
+    {
+      "Interval": "5min",
+      "Increment": 242,
+      "CRPS": 85.73583505506838
+    },
+    {
+      "Interval": "5min",
+      "Increment": 243,
+      "CRPS": 132.8981989287174
+    },
+    {
+      "Interval": "5min",
+      "Increment": 244,
+      "CRPS": 100.09062206015852
+    },
+    {
+      "Interval": "5min",
+      "Increment": 245,
+      "CRPS": 81.06492449405508
+    },
+    {
+      "Interval": "5min",
+      "Increment": 246,
+      "CRPS": 67.57837493425995
+    },
+    {
+      "Interval": "5min",
+      "Increment": 247,
+      "CRPS": 81.6676091258862
+    },
+    {
+      "Interval": "5min",
+      "Increment": 248,
+      "CRPS": 70.66300931536324
+    },
+    {
+      "Interval": "5min",
+      "Increment": 249,
+      "CRPS": 144.8825623369263
+    },
+    {
+      "Interval": "5min",
+      "Increment": 250,
+      "CRPS": 113.25660281301626
+    },
+    {
+      "Interval": "5min",
+      "Increment": 251,
+      "CRPS": 104.28095386304531
+    },
+    {
+      "Interval": "5min",
+      "Increment": 252,
+      "CRPS": 176.58926831599624
+    },
+    {
+      "Interval": "5min",
+      "Increment": 253,
+      "CRPS": 62.19983450137269
+    },
+    {
+      "Interval": "5min",
+      "Increment": 254,
+      "CRPS": 56.25544174413298
+    },
+    {
+      "Interval": "5min",
+      "Increment": 255,
+      "CRPS": 236.95666271132555
+    },
+    {
+      "Interval": "5min",
+      "Increment": 256,
+      "CRPS": 256.47074822173454
+    },
+    {
+      "Interval": "5min",
+      "Increment": 257,
+      "CRPS": 355.31570030833063
+    },
+    {
+      "Interval": "5min",
+      "Increment": 258,
+      "CRPS": 650.1634411361601
+    },
+    {
+      "Interval": "5min",
+      "Increment": 259,
+      "CRPS": 506.07455212341716
+    },
+    {
+      "Interval": "5min",
+      "Increment": 260,
+      "CRPS": 203.45999527940572
+    },
+    {
+      "Interval": "5min",
+      "Increment": 261,
+      "CRPS": 257.72033685967034
+    },
+    {
+      "Interval": "5min",
+      "Increment": 262,
+      "CRPS": 82.9579008134927
+    },
+    {
+      "Interval": "5min",
+      "Increment": 263,
+      "CRPS": 651.5263666095495
+    },
+    {
+      "Interval": "5min",
+      "Increment": 264,
+      "CRPS": 175.3407476962381
+    },
+    {
+      "Interval": "5min",
+      "Increment": 265,
+      "CRPS": 175.81445594350873
+    },
+    {
+      "Interval": "5min",
+      "Increment": 266,
+      "CRPS": 145.01156334355954
+    },
+    {
+      "Interval": "5min",
+      "Increment": 267,
+      "CRPS": 80.81249603266701
+    },
+    {
+      "Interval": "5min",
+      "Increment": 268,
+      "CRPS": 189.05327773309813
+    },
+    {
+      "Interval": "5min",
+      "Increment": 269,
+      "CRPS": 137.14177551751877
+    },
+    {
+      "Interval": "5min",
+      "Increment": 270,
+      "CRPS": 115.73781047622896
+    },
+    {
+      "Interval": "5min",
+      "Increment": 271,
+      "CRPS": 329.3900635558359
+    },
+    {
+      "Interval": "5min",
+      "Increment": 272,
+      "CRPS": 161.97517947733172
+    },
+    {
+      "Interval": "5min",
+      "Increment": 273,
+      "CRPS": 60.69030173369214
+    },
+    {
+      "Interval": "5min",
+      "Increment": 274,
+      "CRPS": 182.40433038502212
+    },
+    {
+      "Interval": "5min",
+      "Increment": 275,
+      "CRPS": 103.81392502776762
+    },
+    {
+      "Interval": "5min",
+      "Increment": 276,
+      "CRPS": 173.71978837207942
+    },
+    {
+      "Interval": "5min",
+      "Increment": 277,
+      "CRPS": 352.3664662074059
+    },
+    {
+      "Interval": "5min",
+      "Increment": 278,
+      "CRPS": 86.49354961959787
+    },
+    {
+      "Interval": "5min",
+      "Increment": 279,
+      "CRPS": 80.29820031099098
+    },
+    {
+      "Interval": "5min",
+      "Increment": 280,
+      "CRPS": 128.2033504130874
+    },
+    {
+      "Interval": "5min",
+      "Increment": 281,
+      "CRPS": 84.55294990563794
+    },
+    {
+      "Interval": "5min",
+      "Increment": 282,
+      "CRPS": 93.83833794068298
+    },
+    {
+      "Interval": "5min",
+      "Increment": 283,
+      "CRPS": 86.05482157411237
+    },
+    {
+      "Interval": "5min",
+      "Increment": 284,
+      "CRPS": 88.46395995925661
+    },
+    {
+      "Interval": "5min",
+      "Increment": 285,
+      "CRPS": 62.561363753370586
+    },
+    {
+      "Interval": "5min",
+      "Increment": 286,
+      "CRPS": 96.70976096833186
+    },
+    {
+      "Interval": "5min",
+      "Increment": 287,
+      "CRPS": 146.30884377794095
+    },
+    {
+      "Interval": "5min",
+      "Increment": 288,
+      "CRPS": 57.02650633142369
+    },
+    {
+      "Interval": "5min",
+      "Increment": "Total",
+      "CRPS": 38114.411166647136
+    },
+    {
+      "Interval": "30min",
+      "Increment": 1,
+      "CRPS": 257.51438327630456
+    },
+    {
+      "Interval": "30min",
+      "Increment": 2,
+      "CRPS": 357.34586505840235
+    },
+    {
+      "Interval": "30min",
+      "Increment": 3,
+      "CRPS": 262.3016401924144
+    },
+    {
+      "Interval": "30min",
+      "Increment": 4,
+      "CRPS": 180.89850352927175
+    },
+    {
+      "Interval": "30min",
+      "Increment": 5,
+      "CRPS": 854.8016208482411
+    },
+    {
+      "Interval": "30min",
+      "Increment": 6,
+      "CRPS": 144.36150749039086
+    },
+    {
+      "Interval": "30min",
+      "Increment": 7,
+      "CRPS": 290.96256039943074
+    },
+    {
+      "Interval": "30min",
+      "Increment": 8,
+      "CRPS": 138.7275966266895
+    },
+    {
+      "Interval": "30min",
+      "Increment": 9,
+      "CRPS": 185.68012813564184
+    },
+    {
+      "Interval": "30min",
+      "Increment": 10,
+      "CRPS": 380.82056522215623
+    },
+    {
+      "Interval": "30min",
+      "Increment": 11,
+      "CRPS": 284.6051862337693
+    },
+    {
+      "Interval": "30min",
+      "Increment": 12,
+      "CRPS": 149.5742381895284
+    },
+    {
+      "Interval": "30min",
+      "Increment": 13,
+      "CRPS": 201.6869831236724
+    },
+    {
+      "Interval": "30min",
+      "Increment": 14,
+      "CRPS": 141.9036018723179
+    },
+    {
+      "Interval": "30min",
+      "Increment": 15,
+      "CRPS": 162.59305378306385
+    },
+    {
+      "Interval": "30min",
+      "Increment": 16,
+      "CRPS": 298.01931263383307
+    },
+    {
+      "Interval": "30min",
+      "Increment": 17,
+      "CRPS": 491.137163375963
+    },
+    {
+      "Interval": "30min",
+      "Increment": 18,
+      "CRPS": 412.3684149419884
+    },
+    {
+      "Interval": "30min",
+      "Increment": 19,
+      "CRPS": 421.7981374359575
+    },
+    {
+      "Interval": "30min",
+      "Increment": 20,
+      "CRPS": 144.79431101921182
+    },
+    {
+      "Interval": "30min",
+      "Increment": 21,
+      "CRPS": 564.0725804804665
+    },
+    {
+      "Interval": "30min",
+      "Increment": 22,
+      "CRPS": 645.0189979814311
+    },
+    {
+      "Interval": "30min",
+      "Increment": 23,
+      "CRPS": 162.86137773182804
+    },
+    {
+      "Interval": "30min",
+      "Increment": 24,
+      "CRPS": 149.70496690646138
+    },
+    {
+      "Interval": "30min",
+      "Increment": 25,
+      "CRPS": 163.0983204535096
+    },
+    {
+      "Interval": "30min",
+      "Increment": 26,
+      "CRPS": 202.71817987519847
+    },
+    {
+      "Interval": "30min",
+      "Increment": 27,
+      "CRPS": 302.7839494258432
+    },
+    {
+      "Interval": "30min",
+      "Increment": 28,
+      "CRPS": 163.4220620361354
+    },
+    {
+      "Interval": "30min",
+      "Increment": 29,
+      "CRPS": 184.0263870163318
+    },
+    {
+      "Interval": "30min",
+      "Increment": 30,
+      "CRPS": 199.24163337675867
+    },
+    {
+      "Interval": "30min",
+      "Increment": 31,
+      "CRPS": 196.53512940998252
+    },
+    {
+      "Interval": "30min",
+      "Increment": 32,
+      "CRPS": 170.28883478191125
+    },
+    {
+      "Interval": "30min",
+      "Increment": 33,
+      "CRPS": 180.92449255322305
+    },
+    {
+      "Interval": "30min",
+      "Increment": 34,
+      "CRPS": 143.63546987510534
+    },
+    {
+      "Interval": "30min",
+      "Increment": 35,
+      "CRPS": 148.4718778598318
+    },
+    {
+      "Interval": "30min",
+      "Increment": 36,
+      "CRPS": 208.21003217892496
+    },
+    {
+      "Interval": "30min",
+      "Increment": 37,
+      "CRPS": 304.8313631572465
+    },
+    {
+      "Interval": "30min",
+      "Increment": 38,
+      "CRPS": 1900.239483657727
+    },
+    {
+      "Interval": "30min",
+      "Increment": 39,
+      "CRPS": 675.2961217203003
+    },
+    {
+      "Interval": "30min",
+      "Increment": 40,
+      "CRPS": 175.94487091334287
+    },
+    {
+      "Interval": "30min",
+      "Increment": 41,
+      "CRPS": 289.3250767070685
+    },
+    {
+      "Interval": "30min",
+      "Increment": 42,
+      "CRPS": 279.4876301112909
+    },
+    {
+      "Interval": "30min",
+      "Increment": 43,
+      "CRPS": 244.97805302374604
+    },
+    {
+      "Interval": "30min",
+      "Increment": 44,
+      "CRPS": 210.11001613026008
+    },
+    {
+      "Interval": "30min",
+      "Increment": 45,
+      "CRPS": 311.83518536790274
+    },
+    {
+      "Interval": "30min",
+      "Increment": 46,
+      "CRPS": 257.59446522841586
+    },
+    {
+      "Interval": "30min",
+      "Increment": 47,
+      "CRPS": 435.29782652633384
+    },
+    {
+      "Interval": "30min",
+      "Increment": 48,
+      "CRPS": 208.42508292363937
+    },
+    {
+      "Interval": "30min",
+      "Increment": "Total",
+      "CRPS": 14840.274240798466
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 1,
+      "CRPS": 1011.0804329378309
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 2,
+      "CRPS": 416.5511183503627
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 3,
+      "CRPS": 400.5879460331446
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 4,
+      "CRPS": 1731.0663477022945
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 5,
+      "CRPS": 417.1573603798495
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 6,
+      "CRPS": 436.40643863868115
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 7,
+      "CRPS": 1751.794325508537
+    },
+    {
+      "Interval": "3hour",
+      "Increment": 8,
+      "CRPS": 384.8826891323872
+    },
+    {
+      "Interval": "3hour",
+      "Increment": "Total",
+      "CRPS": 6549.526658683088
+    },
+    {
+      "Interval": "24hour",
+      "Increment": 1,
+      "CRPS": 4147.6236287572665
+    },
+    {
+      "Interval": "24hour",
+      "Increment": "Total",
+      "CRPS": 4147.6236287572665
+    }
+  ]
+}

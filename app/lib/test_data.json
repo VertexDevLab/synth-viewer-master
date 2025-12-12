@@ -1,0 +1,2067 @@
+{
+  "d1": {
+    "ma": {
+      "buy": 1,
+      "sell": 11,
+      "neutral": 0,
+      "forecast": "Strong sell",
+      "direction": "strong_sell"
+    },
+    "ta": {
+      "buy": 1,
+      "sell": 8,
+      "neutral": 2,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "forecast": "Strong sell",
+    "direction": "strong_sell",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "86936.62",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "86717.38",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "89946.29",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "91752.8",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "92996.26",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "94215.89",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "95671.88",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "97905.7",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "93421.09",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "97775.66",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "85507.16",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "81997.93",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 25.22,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": -215.18,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": -3119.18,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 87.51,
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Strong sell", "direction": "strong_sell" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 43.27,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": -3273.79,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -71.08,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "h1": { "forecast": "Oversold", "direction": "oversold" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 45.62,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": -6005.32,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 3.34,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "h1": { "forecast": "Overbought", "direction": "overbought" },
+          "h4": { "forecast": "Overbought", "direction": "overbought" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Oversold", "direction": "oversold" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 82055.67,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 90379.27,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": -3.48,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      }
+    ]
+  },
+  "h1": {
+    "ma": {
+      "buy": 3,
+      "sell": 9,
+      "neutral": 0,
+      "forecast": "Strong sell",
+      "direction": "strong_sell"
+    },
+    "ta": {
+      "buy": 4,
+      "sell": 2,
+      "neutral": 6,
+      "forecast": "Buy",
+      "direction": "buy"
+    },
+    "forecast": "Neutral",
+    "direction": "neutral",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "84973.06",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84997.93",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "84941.31",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85241.48",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "84513.13",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "84736.95",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "84387.23",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "83618.15",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "86000.78",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85417.41",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "88953.16",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "90628.03",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 53,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": -8.67,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": 552.48,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 100.79,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 25.73,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": 537.44,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -69.22,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Overbought", "direction": "overbought" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 43.31,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": 145.37,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 11.19,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h4": { "forecast": "Overbought", "direction": "overbought" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Oversold", "direction": "oversold" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 84912.6,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 83051.36,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": 0.64,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      }
+    ]
+  },
+  "h4": {
+    "ma": {
+      "buy": 4,
+      "sell": 8,
+      "neutral": 0,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "ta": {
+      "buy": 2,
+      "sell": 8,
+      "neutral": 2,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "forecast": "Sell",
+    "direction": "sell",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "84435.75",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "84707.41",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "84250.27",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "83242.11",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "85274.83",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84662.21",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "88907.6",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "90509.67",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "92091.49",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "93594.62",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "94929.7",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "96443.42",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 44.19,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": 8.02,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": -1916.35,
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 95.24,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 45.24,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": -1754.33,
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -27.35,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Buy", "direction": "buy" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Overbought", "direction": "overbought" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 60.64,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": 1068.29,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 94.99,
+        "forecast": "Overbought",
+        "direction": "overbought",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Oversold", "direction": "oversold" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 85743.69,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 85293.2,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": -2.04,
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      }
+    ]
+  },
+  "m5": {
+    "ma": {
+      "buy": 0,
+      "sell": 12,
+      "neutral": 0,
+      "forecast": "Strong sell",
+      "direction": "strong_sell"
+    },
+    "ta": {
+      "buy": 2,
+      "sell": 8,
+      "neutral": 2,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "forecast": "Strong sell",
+    "direction": "strong_sell",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "84609.46",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84611.13",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "84629.76",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84607.54",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "84721.18",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84699.61",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "84921.41",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85026.04",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "84972.36",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85255.51",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "84659.64",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84840.5",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 39.19,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": -51.28,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": -209.33,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 99.35,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 33.19,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": -129.82,
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -50.17,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Buy", "direction": "buy" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Overbought", "direction": "overbought" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 35.56,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": -32.27,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 87.39,
+        "forecast": "Overbought",
+        "direction": "overbought",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Oversold", "direction": "oversold" },
+          "h4": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Oversold", "direction": "oversold" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 84600.37,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 84862.16,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": -0.15,
+        "forecast": "Strong sell",
+        "direction": "strong_sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      }
+    ]
+  },
+  "w1": {
+    "ma": {
+      "buy": 6,
+      "sell": 6,
+      "neutral": 0,
+      "forecast": "Neutral",
+      "direction": "neutral"
+    },
+    "ta": {
+      "buy": 6,
+      "sell": 1,
+      "neutral": 5,
+      "forecast": "Buy",
+      "direction": "buy"
+    },
+    "forecast": "Neutral",
+    "direction": "neutral",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "96998.04",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "97833.12",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "95999.83",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "97233.03",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "90317.09",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "90595.23",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "75879.9",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "74557.32",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "61617.93",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "54579.04",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "49419.03",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "44410.51",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 60.95,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": 38.28,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": 10417.04,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 153.21,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Strong sell", "direction": "strong_sell" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 37.36,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": 8119.46,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -65.56,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Buy", "direction": "buy" },
+          "h1": { "forecast": "Oversold", "direction": "oversold" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 47.27,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": 4999.76,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 0.21,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Overbought", "direction": "overbought" },
+          "h4": { "forecast": "Overbought", "direction": "overbought" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "m15": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 96326.87,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Buy", "direction": "buy" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 81136,
+        "forecast": "Buy",
+        "direction": "buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": 9.34,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      }
+    ]
+  },
+  "m15": {
+    "ma": {
+      "buy": 5,
+      "sell": 7,
+      "neutral": 0,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "ta": {
+      "buy": 1,
+      "sell": 7,
+      "neutral": 3,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "forecast": "Sell",
+    "direction": "sell",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "84666.65",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84580.47",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "84800.88",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84874.76",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "84951.04",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84998.53",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "84838.93",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85058.43",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "84352.08",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "84140.13",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "84413.22",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "83628.51",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 40.79,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": -106.25,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": -367.4,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 99.53,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 20.99,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": -138.04,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -80.69,
+        "forecast": "Overbought",
+        "direction": "overbought",
+        "timeframes": {
+          "d1": { "forecast": "Buy", "direction": "buy" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Overbought", "direction": "overbought" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 40.56,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Sell", "direction": "sell" },
+          "m30": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": -186.91,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 22.97,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Oversold", "direction": "oversold" },
+          "h4": { "forecast": "Overbought", "direction": "overbought" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Oversold", "direction": "oversold" },
+          "m30": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 84477.44,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 85065.58,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m30": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": -0.16,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m30": { "forecast": "Strong buy", "direction": "strong_buy" }
+        }
+      }
+    ]
+  },
+  "m30": {
+    "ma": {
+      "buy": 4,
+      "sell": 8,
+      "neutral": 0,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "ta": {
+      "buy": 3,
+      "sell": 4,
+      "neutral": 3,
+      "forecast": "Sell",
+      "direction": "sell"
+    },
+    "forecast": "Sell",
+    "direction": "sell",
+    "indicators": [
+      {
+        "type": "moving_average",
+        "values": [
+          {
+            "ema": {
+              "value": "84845.11",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "84941.57",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma5"
+          },
+          {
+            "ema": {
+              "value": "84993.84",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85042.74",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma10"
+          },
+          {
+            "ema": {
+              "value": "84952.46",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85250.99",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma20"
+          },
+          {
+            "ema": {
+              "value": "84345.34",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "84097.01",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma50"
+          },
+          {
+            "ema": {
+              "value": "84383.08",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "sma": {
+              "value": "83628.22",
+              "forecast": "Buy",
+              "direction": "buy"
+            },
+            "period": "ma100"
+          },
+          {
+            "ema": {
+              "value": "86011.72",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "sma": {
+              "value": "85419.05",
+              "forecast": "Sell",
+              "direction": "sell"
+            },
+            "period": "ma200"
+          }
+        ],
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "rsi",
+        "value": 48.03,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "cci",
+        "value": -140.52,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "awesome_oscillator",
+        "value": 26.55,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "momentum",
+        "value": 100.01,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Strong sell", "direction": "strong_sell" }
+        }
+      },
+      {
+        "type": "adx",
+        "value": 21.42,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Sell", "direction": "sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "macd",
+        "value": 186.82,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "williams_r",
+        "value": -84.95,
+        "forecast": "Overbought",
+        "direction": "overbought",
+        "timeframes": {
+          "d1": { "forecast": "Buy", "direction": "buy" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Oversold", "direction": "oversold" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ultimate_oscillator",
+        "value": 52.29,
+        "forecast": "Neutral",
+        "direction": "neutral",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Buy", "direction": "buy" },
+          "w1": { "forecast": "Sell", "direction": "sell" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "bbp",
+        "value": -323.36,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Neutral", "direction": "neutral" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      },
+      {
+        "type": "stoch_rsi",
+        "value": 4.44,
+        "forecast": "Oversold",
+        "direction": "oversold",
+        "timeframes": {
+          "d1": { "forecast": "Oversold", "direction": "oversold" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Overbought", "direction": "overbought" },
+          "m5": { "forecast": "Overbought", "direction": "overbought" },
+          "w1": { "forecast": "Oversold", "direction": "oversold" },
+          "m15": { "forecast": "Oversold", "direction": "oversold" }
+        }
+      },
+      {
+        "type": "hma",
+        "value": 84640.88,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Neutral", "direction": "neutral" },
+          "h1": { "forecast": "Sell", "direction": "sell" },
+          "h4": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Neutral", "direction": "neutral" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ichimoku",
+        "value": 85191.39,
+        "forecast": "Sell",
+        "direction": "sell",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Neutral", "direction": "neutral" },
+          "h4": { "forecast": "Buy", "direction": "buy" },
+          "m5": { "forecast": "Neutral", "direction": "neutral" },
+          "w1": { "forecast": "Buy", "direction": "buy" },
+          "m15": { "forecast": "Neutral", "direction": "neutral" }
+        }
+      },
+      {
+        "type": "ppo",
+        "value": 0.22,
+        "forecast": "Strong buy",
+        "direction": "strong_buy",
+        "timeframes": {
+          "d1": { "forecast": "Sell", "direction": "sell" },
+          "h1": { "forecast": "Buy", "direction": "buy" },
+          "h4": { "forecast": "Strong sell", "direction": "strong_sell" },
+          "m5": { "forecast": "Sell", "direction": "sell" },
+          "w1": { "forecast": "Strong buy", "direction": "strong_buy" },
+          "m15": { "forecast": "Sell", "direction": "sell" }
+        }
+      }
+    ]
+  }
+}

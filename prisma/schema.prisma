@@ -1,0 +1,130 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRES_PRISMA_URL")
+}
+
+model alembic_version {
+  version_num String @id(map: "alembic_version_pkc") @db.VarChar(32)
+}
+
+model metagraph_history {
+  id         BigInt   @id @default(autoincrement())
+  neuron_uid Int
+  incentive  Float?
+  rank       Float?
+  stake      Float?
+  trust      Float?
+  emission   Float?
+  coldkey    String?  @db.VarChar
+  hotkey     String?  @db.VarChar
+  updated_at DateTime @db.Timestamptz(6)
+
+  @@index([neuron_uid], map: "ix_metagraph_history_neuron_uid")
+  @@index([updated_at], map: "ix_metagraph_history_updated_at")
+}
+
+model miner_predictions {
+  id                    BigInt             @id(map: "miner_predictions_pkey1") @default(autoincrement())
+  validator_requests_id BigInt
+  miner_uid             Int
+  prediction            Json               @db.Json
+  format_validation     String?            @db.VarChar
+  process_time          Float?
+  validator_requests    validator_requests @relation(fields: [validator_requests_id], references: [id], onUpdate: NoAction, map: "fk_miner_predictions_validator_requests_id")
+  miner_scores          miner_scores[]
+}
+
+model miner_predictions_old {
+  id              BigInt   @id(map: "miner_predictions_pkey") @default(autoincrement())
+  miner_uid       Int
+  start_time      DateTime @db.Timestamptz(6)
+  prediction      Json     @db.Json
+  asset           String?  @db.VarChar
+  time_increment  Int?
+  time_length     Int?
+  num_simulations Int?
+
+  @@index([miner_uid], map: "ix_miner_uid")
+  @@index([start_time], map: "ix_validation_time")
+}
+
+model miner_rewards {
+  id             BigInt   @id @default(autoincrement())
+  miner_uid      Int
+  smoothed_score Float
+  reward_weight  Float
+  updated_at     DateTime @db.Timestamptz(6)
+
+  @@index([miner_uid], map: "ix_miner_rewards_miner_uid")
+  @@index([updated_at], map: "ix_miner_rewards_updated_at")
+}
+
+model miner_scores {
+  id                   BigInt             @id @default(autoincrement())
+  miner_uid            Int
+  miner_predictions_id BigInt?
+  prompt_score         Float?
+  score_details        Json
+  real_prices          Json?              @db.Json
+  scored_time          DateTime?          @db.Timestamptz(6)
+  miner_predictions    miner_predictions? @relation(fields: [miner_predictions_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_miner_scores_miner_predictions_id")
+
+  @@index([miner_uid], map: "ix_miner_scores_miner_uid")
+  @@index([scored_time], map: "ix_miner_scores_scored_time")
+}
+
+model my_predictions {
+  id           BigInt    @id(map: "my_predictions_pk") @default(autoincrement())
+  miner_uid    Int
+  request_time DateTime? @db.Timestamptz(6)
+  variable     Json
+  prediction   Json
+  type         String?   @db.VarChar
+}
+
+model validator_requests {
+  id                BigInt              @id @default(autoincrement())
+  start_time        DateTime            @db.Timestamptz(0)
+  asset             String?             @db.VarChar
+  time_increment    Int?
+  time_length       Int?
+  num_simulations   Int?
+  request_time      DateTime?           @db.Timestamptz(6)
+  miner_predictions miner_predictions[]
+
+  @@index([start_time], map: "ix_start_time")
+}
+
+model analytics {
+  id         Int       @id @default(autoincrement())
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model predictions {
+  id              Int       @id @default(autoincrement())
+  miner_uid       Int
+  prediction      Json
+  start_time      DateTime  @db.Timestamptz(6)
+  asset           String    @db.VarChar(10)
+  time_increment  Int
+  time_length     Int
+  num_simulations Int
+  created_at      DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at      DateTime? @default(now()) @db.Timestamptz(6)
+
+  @@index([start_time], map: "idx_predictions_start_time")
+}
+
+model top_miner {
+  id          Int       @id @default(autoincrement())
+  miner_uid   Int
+  scored_time DateTime  @db.Timestamptz(6)
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at  DateTime? @default(now()) @db.Timestamptz(6)
+}

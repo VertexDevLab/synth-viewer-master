@@ -1,0 +1,25 @@
+{
+  "total_score": 0.0,
+  "detailed_scores": [
+    {
+      "Interval": "5min",
+      "Increment": "Total",
+      "CRPS": 0.0
+    },
+    {
+      "Interval": "30min",
+      "Increment": "Total",
+      "CRPS": 0.0
+    },
+    {
+      "Interval": "3hour",
+      "Increment": "Total",
+      "CRPS": 0.0
+    },
+    {
+      "Interval": "24hour",
+      "Increment": "Total",
+      "CRPS": 0.0
+    }
+  ]
+}
